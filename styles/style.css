@@ -200,3 +200,23 @@ footer textarea {
     border: none;
 
 }
+
+/* responsive media query */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .skills-container,
+    .resume-container,
+    .banner,
+    .footer,
+    .about-items {
+        flex-direction: column;
+    }
+}
+
+.header {
+    background-image: none;
+}
